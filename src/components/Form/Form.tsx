@@ -114,7 +114,7 @@ export const Form = observer(() => {
             className={classNames({
               [styles.button]: true,
               [styles.layoutBtn]: true,
-              [styles.active]: value === hLayout,
+              [styles.active]: value === vLayout,
             })}
             onClick={() => setVLayout(value)}
           >
