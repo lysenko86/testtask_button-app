@@ -1,0 +1,48 @@
+.button {
+  background-color: var(--primaryColor);
+  border-radius: 6px;
+  color: var(--whiteColor);
+  text-decoration: none;
+  display: block;
+  box-sizing: border-box;
+  align-items: center;
+  max-width: 320px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  &.xs {
+    font-size: 12px;
+    line-height: 16px;
+    height: 30px;
+    padding: 7px 16px 0;
+  }
+  &.s {
+    font-size: 12px;
+    line-height: 16px;
+    height: 36px;
+    padding: 10px 16px 0;
+  }
+  &.m {
+    font-size: 14px;
+    line-height: 20px;
+    height: 48px;
+    padding: 15px 22px 0;
+  }
+  &.l {
+    font-size: 16px;
+    line-height: 22px;
+    height: 54px;
+    padding: 16px 26px 0;
+  }
+  &.xl {
+    font-size: 18px;
+    line-height: 26px;
+    height: 60px;
+    padding: 16px 36px 0;
+  }
+
+  &:hover {
+    background-color: var(--primaryColorHover);
+  }
+}
+  

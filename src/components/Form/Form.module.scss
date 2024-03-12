@@ -1,0 +1,68 @@
+.container {
+  padding: 5px 0;
+}
+
+.block {
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.divider {
+  background-color: var(--borderColor);
+  height: 1px;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.input {
+  height: 48px;
+  border-radius: 6px;
+  border: 1px solid var(--borderDarkColor);
+  background-color: var(--bgDarkColor);
+  padding: 0 16px;
+  outline: none;
+  box-sizing: border-box;
+  font-size: 14px;
+
+  &::placeholder {
+    color: var(--textLightColor);
+    font-size: 14px;
+  }
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &.active {
+    background-color: var(--bgDarkColor);
+  }
+
+  &:hover {
+    background-color: var(--bgDarkColor);
+  }
+}
+
+.sizeBtn {
+  padding: 8px 15px;
+}
+
+.layoutBtn {
+  padding: 8px 11px;
+}
