@@ -4,6 +4,10 @@ Onepage test task - create an interactive button with parameters. By click shoul
 
 ![Button-App demo image](./public/demo.png)
 
+# Environment
+- node v20.11.1
+- npm v10.2.4
+
 # How to run locally
 1. clone this repository
     - git clone https://github.com/lysenko86/button-app.git
